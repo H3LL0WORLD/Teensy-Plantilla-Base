@@ -1,6 +1,6 @@
 ## Plantilla Base Teensy 3.2
 
-Esta plantilla hará que programar payloads sea tan fácil como escribir normalmente.
+Esta plantilla hará que programar payloads sea tan fácil como escribir normalmente :+1:.
 
 ## Instalación
 La plantilla es el archivo Base.ino, puedes abrirlo cada vez que lo necesites o puedes copiarlo como un ejemplo con el bat 'copiar como ejemplo'
@@ -8,10 +8,10 @@ Tambien es recomendado actualizar las KEYWORDs o palabras claves para que a la h
 
 ## Funciones Comunes
 
-- Escribir();
-+ Imprime una cadena de texto y envia una nueva linea
-+ Ejm:
-+ Escribir("Hola Mundo");
+**Escribir();**
+- *Imprime una cadena de texto y envia una nueva linea*
+- Ejm:
+```Escribir("Hola Mundo");```
 
 - escribir();			// Imprime una cadena de texto
 - Ejm:
