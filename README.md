@@ -78,9 +78,8 @@ Comparacion uso de valor original o  uso de abreviacion:
 
 ##Lista de teclas abreviadas
 
-**Abecedario**
+**Abecedario** *(notese que la 'ñ' es 'n-')*
 
-######*(notese que la 'ñ' es 'n-')*
 - **A, B, C, D, E, F, G, H, I, J, K, L, M, N, N_, O, P, Q, R, S, T, U, V, W, X, Y, Z**
 
 **Números**
@@ -102,7 +101,6 @@ Comparacion uso de valor original o  uso de abreviacion:
 - GUI_DER
 - ALT_IZQ
 - ALT_DER
-
 - ESC
 - TABULADOR
 - BLOQ_MAYUS
@@ -115,7 +113,6 @@ Comparacion uso de valor original o  uso de abreviacion:
 - FIN
 - AV_PAG
 - RE_PAG
-
 - ARRIBA
 - ABAJO
 - IZQUIERDA
