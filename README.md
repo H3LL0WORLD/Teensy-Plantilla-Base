@@ -25,19 +25,22 @@ Tambien es recomendado actualizar las KEYWORDs o palabras claves para que a la h
 ######Ejm: ```CTRL(C);```
 
 - **SHIFT();**
-* *// Presionar la tecla Shift*
-* *// Sin argumentos solo envia shift*
-* *// Argumentos validos (Cualquier tecla);*
+######*// Presionar la tecla Shift*
+######*// Sin argumentos solo envia shift*
+######*// Argumentos validos (Cualquier tecla);*
 ######Ejm: ```SHIFT(TAB);```
 
-- GUI(); 				// Presionar la tecla Windows o Comando en Mac
-- Ejm:
-- GUI(); 				// Sin argumentos solo envia la tecla windows o comando
-- GUI(R); 				// Argumentos validos (Cualquier tecla);
+- **GUI();**
+######*// Presionar la tecla Windows o Comando en Mac*
+######*// Sin argumentos solo envia la tecla windows o comando*
+######*// Argumentos validos (Cualquier tecla);*
+######Ejm: ```GUI(R);```
 
-- ALT(); 				// Presionar tecla Alt
-- ALTGR(); // Presionar tecla AltGr
-- Ejm:
+- **ALT();**
+######*// Presionar tecla Alt*
+- **ALTGR();**
+######*// Presionar tecla AltGr*
+Ejm:
 - ALTGR(); o ALT();	// Sin argumentos solo envia la tecla alt
 - ALT(F4); // Argumentos validos (Cualquier tecla);
 - 
