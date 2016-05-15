@@ -40,10 +40,10 @@ Tambien es recomendado actualizar las KEYWORDs o palabras claves para que a la h
 ######*// Presionar tecla Alt.*
 ######*// Sin argumentos solo envia la tecla Alt.*
 ######*// Argumentos validos (Cualquier tecla).*
-######Ejm: ```ALTGR();```, ```ALTGR();``` o ```ALT(F4);```
+######Ejm: ```ALT();```, ```ALTGR();``` o ```ALT(F4);```
 
 
-## COMBINACIONES
+##Combinaciones
 
 - **CTRL_ALT();**
 ######*// Envia la combinacion de teclas control más alternacion más un argumento.*
@@ -61,32 +61,32 @@ Tambien es recomendado actualizar las KEYWORDs o palabras claves para que a la h
 
 ## OTRAS TECLAS
 - **Enter();**
-Presionar tecla enter.
+####// Presionar tecla enter.
 - **Tab();**
-Presionar tabulador
+######// Presionar tabulador
 
-Para enviar cualquier otra tecla usar:
- ```Tecla(valorTecla);```
-Ejm: Tecla(F1);
-// Presiona la tecla Funcion1 (Muestra la ayuda en la mayoria de programas)
+**__Para enviar cualquier otra tecla usar:__**  ```Tecla(valorTecla);```
+######Ejm: ```Tecla(F1);```
+######*// Presiona la tecla Funcion1 (Muestra la ayuda en la mayoria de programas)*
 
  * Para una mejor legibilidad usar las abreviaciones presentadas en seguida:
  * Comparacion uso de valor original o  uso de abreviacion:
- *		Tecla(KEY_F1);
- * 		Tecla(F1);
+ *	Tecla(KEY_F1);
+ * Tecla(F1);
  
 
-## LISTA DE TECLAS ABREVIADAS
+## Lista de teclas abreviadas
 
-## Abecedario
-(notese que la 'ñ' es 'n-')
-- A, B, C, D, E, F, G, H, I, J, K, L, M, N, N_, O, P, Q, R, S, T, U, V, W, X, Y, Z
-- 
-## NÚMEROS
-- N_0, N_1, N_2, N_3, N_4, N_5, N_6, N_7, N_8, N_9
+#### Abecedario
+######*// (notese que la 'ñ' es 'n-')*
+- ######**A, B, C, D, E, F, G, H, I, J, K, L, M, N, N_, O, P, Q, R, S, T, U, V, W, X, Y, Z**
 
-## TECLAS DE FUNCIONES
-- F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12
+####Números
+
+- ######**N_0, N_1, N_2, N_3, N_4, N_5, N_6, N_7, N_8, N_9**
+
+####Teclas de funciones
+- ######**F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12**
 
 ## OTRAS TECLAS COMUNES
 
