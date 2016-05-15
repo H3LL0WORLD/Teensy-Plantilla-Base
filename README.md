@@ -69,10 +69,11 @@ Tambien es recomendado actualizar las KEYWORDs o palabras claves para que a la h
 ######Ejm: ```Tecla(F1);```
 ######*// Presiona la tecla Funcion1 (Muestra la ayuda en la mayoria de programas)*
 
-Para una mejor legibilidad usar las abreviaciones presentadas en seguida:
+Para mayor comodidad; usar las abreviaciones presentadas a continuacion:
+
 Comparacion uso de valor original o  uso de abreviacion:
-  Tecla(KEY_F1);
-  Tecla(F1);
+######Normalmente: *Tecla(``KEY_F1``);*
+######Abreviacion:   *Tecla(``F1``);*
  
 
 ##Lista de teclas abreviadas
@@ -114,6 +115,7 @@ Comparacion uso de valor original o  uso de abreviacion:
 - FIN
 - AV_PAG
 - RE_PAG
+
 - ARRIBA
 - ABAJO
 - IZQUIERDA
