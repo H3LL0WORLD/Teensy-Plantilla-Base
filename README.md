@@ -9,19 +9,19 @@ Tambien es recomendado actualizar las KEYWORDs o palabras claves para que a la h
 ##Funciones Comunes
 
 - **Escribir();**
-*// Imprime una cadena de texto y envia una nueva linea*
+######*// Imprime una cadena de texto y envia una nueva linea*
 ######Ejm: ```Escribir("Hola Mundo");```
 
 - **escribir();**
-*// Imprime una cadena de texto*
+######*// Imprime una cadena de texto*
 ######Ejm: ```escribir("Hola Mundo");```
 
 ##Teclas comunes
 
 - **CTRL();**
-* *// Presiona la tecla control*
-* *// Sin argumentos solo envia control*
-* *// Argumentos validos (Cualquier tecla);*
+######*// Presiona la tecla control*
+######*// Sin argumentos solo envia control*
+######*// Argumentos validos (Cualquier tecla);*
 ######Ejm: ```CTRL(C);```
 
 - **SHIFT();**
