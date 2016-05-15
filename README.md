@@ -9,60 +9,63 @@ Tambien es recomendado actualizar las KEYWORDs o palabras claves para que a la h
 ##Funciones Comunes
 
 - **Escribir();**
-######*// Imprime una cadena de texto y envia una nueva linea*
+######*// Imprime una cadena de texto y envia una nueva linea.*
 ######Ejm: ```Escribir("Hola Mundo");```
 
 - **escribir();**
-######*// Imprime una cadena de texto*
+######*// Imprime una cadena de texto.*
 ######Ejm: ```escribir("Hola Mundo");```
 
 ##Teclas comunes
 
 - **CTRL();**
-######*// Presiona la tecla control*
-######*// Sin argumentos solo envia control*
-######*// Argumentos validos (Cualquier tecla);*
+######*// Presiona la tecla control.*
+######*// Sin argumentos solo envia control.*
+######*// Argumentos validos (Cualquier tecla).*
 ######Ejm: ```CTRL(C);```
 
 - **SHIFT();**
-######*// Presionar la tecla Shift*
-######*// Sin argumentos solo envia shift*
-######*// Argumentos validos (Cualquier tecla);*
+######*// Presionar la tecla Shift.*
+######*// Sin argumentos solo envia shift.*
+######*// Argumentos validos (Cualquier tecla).*
 ######Ejm: ```SHIFT(TAB);```
 
 - **GUI();**
-######*// Presionar la tecla Windows o Comando en Mac*
-######*// Sin argumentos solo envia la tecla windows o comando*
-######*// Argumentos validos (Cualquier tecla);*
+######*// Presionar la tecla Windows o Comando en Mac.*
+######*// Sin argumentos solo envia la tecla windows o comando.*
+######*// Argumentos validos (Cualquier tecla).*
 ######Ejm: ```GUI(R);```
 
 - **ALT();**
-######*// Presionar tecla Alt*
 - **ALTGR();**
+######*// Presionar tecla Alt.*
+######*// Sin argumentos solo envia la tecla Alt.*
+######*// Argumentos validos (Cualquier tecla).*
 ######*// Presionar tecla AltGr*
-Ejm:
-- ALTGR(); o ALT();	// Sin argumentos solo envia la tecla alt
-- ALT(F4); // Argumentos validos (Cualquier tecla);
-- 
+######Ejm: ```ALTGR();```, ```ALT();``` o ```ALT(F4);```
+
+
 ## COMBINACIONES
-- 
-- CTRL_ALT(); 		// Envia la combinacion de teclas control más alternacion más un argumento
-Ejm:
-- CTRL_ALT(SUPR);		// Envia Ctrl + Alt + Supr
-- 
-- CTRL_SHIFT();		// Envia la combinacion de teclas control más shift más un argumento
-Ejm:
-- CTRL_SHIFT(ESC); 	// Envia Ctrl + Shift + Escape (Administrador de tareas windows)
-- 
+
+- **CTRL_ALT();**
+######*// Envia la combinacion de teclas control más alternacion más un argumento.*
+######Ejm: ```CTRL_ALT(SUPR);```
+
+- **CTRL_SHIFT();**
+######*// Envia la combinacion de teclas control más shift más un argumento.*
+######Ejm: ```CTRL_SHIFT(ESC);```
+
 ## TECLAS DE NAVEGACION
-- Arriba();
-- Abajo();
-- Izq();
-- Der();
+- **Arriba();**
+- **Abajo();**
+- **Izq();**
+- **Der();**
 
 ## OTRAS TECLAS
-- Enter(); 	// Presionar tecla enter.
-- Tab(); 		// Presionar tabulador
+- **Enter();**
+Presionar tecla enter.
+- **Tab();**
+Presionar tabulador
 
 - Para enviar cualquier otra tecla usar:
 - Tecla(valorTecla);
