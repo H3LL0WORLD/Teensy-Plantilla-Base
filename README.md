@@ -1,15 +1,17 @@
 ## Plantilla Base Teensy 3.2
 
- Esta plantilla hará que programar payloads sea tan fácil como escribir normalmente.
+Esta plantilla hará que programar payloads sea tan fácil como escribir normalmente.
 
-## Instalacion
-- La plantilla es el archivo Base.ino, puedes abrirlo cada vez que lo necesites o puedes copiarlo como un ejemplo con el bat 'copiar como ejemplo'
-- Tambien es recomendado actualizar las KEYWORDs o palabras claves para que a la hora de programar sea más comodo.
+## Instalación
+La plantilla es el archivo Base.ino, puedes abrirlo cada vez que lo necesites o puedes copiarlo como un ejemplo con el bat 'copiar como ejemplo'
+Tambien es recomendado actualizar las KEYWORDs o palabras claves para que a la hora de programar sea más comodo.
 
-## [FUNCIONES COMUNES]
-- Escribir();		// Imprime una cadena de texto y envia una nueva linea
-- Ejm:
-- Escribir("Hola Mundo");
+## Funciones Comunes
+
+- Escribir();
++ Imprime una cadena de texto y envia una nueva linea
++ Ejm:
++ Escribir("Hola Mundo");
 
 - escribir();			// Imprime una cadena de texto
 - Ejm:
@@ -40,11 +42,11 @@
 ## COMBINACIONES
 - 
 - CTRL_ALT(); 		// Envia la combinacion de teclas control más alternacion más un argumento
-- Ejm:
+Ejm:
 - CTRL_ALT(SUPR);		// Envia Ctrl + Alt + Supr
 - 
 - CTRL_SHIFT();		// Envia la combinacion de teclas control más shift más un argumento
-- Ejm:
+Ejm:
 - CTRL_SHIFT(ESC); 	// Envia Ctrl + Shift + Escape (Administrador de tareas windows)
 - 
 ## TECLAS DE NAVEGACION
@@ -74,28 +76,20 @@
 - A, B, C, D, E, F, G, H, I, J, K, L, M, N, N_, O, P, Q, R, S, T, U, V, W, X, Y, Z
 - 
 ## NÚMEROS
-* N_0, N_1, N_2, N_3, N_4, N_5, N_6, N_7, N_8, N_9
+- N_0, N_1, N_2, N_3, N_4, N_5, N_6, N_7, N_8, N_9
 
 ## TECLAS DE FUNCIONES
-* F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12
+- F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12
 
 ## OTRAS TECLAS COMUNES
 
-// Control izquierdo
 - CTRL_IZQ
-// Control derecho
 - CTRL_DER
-// Shift izquierdo
 - SHIFT_IZQ
-// Shift derecho
 - SHIFT_DER
-// Tecla izquierda de windows (en windows) o comando (en mac)
 - GUI_IZQ
-// Tecla derecha de windows (en windows) o comando (en mac)
 - GUI_DER
-// Tecla alternacion izquierda
 - ALT_IZQ
- // Tecla alternacion derecha
 - ALT_DER
 
 - ESC
