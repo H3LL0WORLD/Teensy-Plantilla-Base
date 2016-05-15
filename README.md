@@ -53,17 +53,17 @@ Tambien es recomendado actualizar las KEYWORDs o palabras claves para que a la h
 ######*// Envia la combinacion de teclas control más shift más un argumento.*
 ######Ejm: ```CTRL_SHIFT(ESC);```
 
-## Teclas de navegacion
+##Teclas de navegacion
 - **Arriba();**
 - **Abajo();**
 - **Izq();**
 - **Der();**
 
-## Otras teclas
+##Otras teclas
 - **Enter();**
-####// Presionar tecla enter.
+  // Presionar tecla enter.
 - **Tab();**
-######// Presionar tabulador
+  // Presionar tabulador
 
 **__Para enviar cualquier otra tecla usar:__**  ```Tecla(valorTecla);```
 ######Ejm: ```Tecla(F1);```
@@ -71,49 +71,50 @@ Tambien es recomendado actualizar las KEYWORDs o palabras claves para que a la h
 
 Para una mejor legibilidad usar las abreviaciones presentadas en seguida:
 Comparacion uso de valor original o  uso de abreviacion:
-Tecla(KEY_F1);
-Tecla(F1);
+  Tecla(KEY_F1);
+  Tecla(F1);
  
 
 ##Lista de teclas abreviadas
 
-####**Abecedario**
+**Abecedario**
+
 ######*(notese que la 'ñ' es 'n-')*
-  -**A, B, C, D, E, F, G, H, I, J, K, L, M, N, N_, O, P, Q, R, S, T, U, V, W, X, Y, Z**
+- **A, B, C, D, E, F, G, H, I, J, K, L, M, N, N_, O, P, Q, R, S, T, U, V, W, X, Y, Z**
 
-  ####Números
+**Números**
 
-    -**N_0, N_1, N_2, N_3, N_4, N_5, N_6, N_7, N_8, N_9**
+- **N_0, N_1, N_2, N_3, N_4, N_5, N_6, N_7, N_8, N_9**
 
-  ####Teclas de funciones
+**Teclas de funciones**
   
-    -**F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12**
+- **F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, F12**
 
-  ## OTRAS TECLAS COMUNES
 
-    - CTRL_IZQ
-    - CTRL_DER
-    - SHIFT_IZQ
-    - SHIFT_DER
-    - GUI_IZQ
-    - GUI_DER
-    - ALT_IZQ
-    - ALT_DER
+##Otras teclas comunes
 
-    - ESC
-    - TABULADOR
-    - BLOQ_MAYUS
-    - ESPACIO
-    - ENTER
-    - BORRAR
-    - IMP_PNT
-    - SUPR
-    - INICIO
-    - FIN
-    - AV_PAG
-    - RE_PAG
+- CTRL_IZQ
+- CTRL_DER
+- SHIFT_IZQ
+- SHIFT_DER
+- GUI_IZQ
+- GUI_DER
+- ALT_IZQ
+- ALT_DER
 
-    - ARRIBA
-    - ABAJO
-    - IZQUIERDA
-    - DERECHA
+- ESC
+- TABULADOR
+- BLOQ_MAYUS
+- ESPACIO
+- ENTER
+- BORRAR
+- IMP_PNT
+- SUPR
+- INICIO
+- FIN
+- AV_PAG
+- RE_PAG
+- ARRIBA
+- ABAJO
+- IZQUIERDA
+- DERECHA
