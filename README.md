@@ -19,16 +19,15 @@ Tambien es recomendado actualizar las KEYWORDs o palabras claves para que a la h
 ##Teclas comunes
 
 - **CTRL();**
-
-*Presiona la tecla control*
-*Sin argumentos solo envia control*
-*Argumentos validos (Cualquier tecla);*
+* *// Presiona la tecla control*
+* *// Sin argumentos solo envia control*
+* *// Argumentos validos (Cualquier tecla);*
 ######Ejm: ```CTRL(C);```
 
 - **SHIFT();**
-*Presionar la tecla Shift*
-*Sin argumentos solo envia shift*
-*Argumentos validos (Cualquier tecla);*
+* *// Presionar la tecla Shift*
+* *// Sin argumentos solo envia shift*
+* *// Argumentos validos (Cualquier tecla);*
 ######Ejm: ```SHIFT(TAB);```
 
 - GUI(); 				// Presionar la tecla Windows o Comando en Mac
