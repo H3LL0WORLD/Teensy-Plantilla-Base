@@ -1,32 +1,35 @@
-## Plantilla Base Teensy 3.2
+##Plantilla Base Teensy 3.2
 
-Esta plantilla hará que programar payloads sea tan fácil como escribir normalmente :+1:.
+Esta plantilla hará que programar payloads sea tan fácil como escribir normalmente.
 
-## Instalación
+##Instalación
 La plantilla es el archivo Base.ino, puedes abrirlo cada vez que lo necesites o puedes copiarlo como un ejemplo con el bat 'copiar como ejemplo'
 Tambien es recomendado actualizar las KEYWORDs o palabras claves para que a la hora de programar sea más comodo.
 
-## Funciones Comunes
+##Funciones Comunes
 
-**Escribir();**
-- *Imprime una cadena de texto y envia una nueva linea*
-- Ejm:
-```Escribir("Hola Mundo");```
+- **Escribir();**
+*// Imprime una cadena de texto y envia una nueva linea*
+######Ejm: ```Escribir("Hola Mundo");```
 
-- escribir();			// Imprime una cadena de texto
-- Ejm:
-- escribir("Hola Mundo");
+- **escribir();**
+*// Imprime una cadena de texto*
+######Ejm: ```escribir("Hola Mundo");```
 
-- TECLAS COMUNES
-- CTRL(); 			// Presiona la tecla control
-- Ejm:
-- CTRL(); 			// Sin argumentos solo envia control
-- CTRL(C); 			// Argumentos validos (Cualquier tecla);
+##Teclas comunes
 
-- SHIFT(); 			// Presionar la tecla Shift
-- Ejm:
-- SHIFT(); 			// Sin argumentos solo envia shift
-- SHIFT(TAB); 		// Argumentos validos (Cualquier tecla);
+- **CTRL();**
+
+*Presiona la tecla control*
+*Sin argumentos solo envia control*
+*Argumentos validos (Cualquier tecla);*
+######Ejm: ```CTRL(C);```
+
+- **SHIFT();**
+*Presionar la tecla Shift*
+*Sin argumentos solo envia shift*
+*Argumentos validos (Cualquier tecla);*
+######Ejm: ```SHIFT(TAB);```
 
 - GUI(); 				// Presionar la tecla Windows o Comando en Mac
 - Ejm:
