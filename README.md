@@ -36,13 +36,11 @@ Tambien es recomendado actualizar las KEYWORDs o palabras claves para que a la h
 ######*// Argumentos validos (Cualquier tecla).*
 ######Ejm: ```GUI(R);```
 
-- **ALT();**
-- **ALTGR();**
+- **ALT();** y **ALTGR();**
 ######*// Presionar tecla Alt.*
 ######*// Sin argumentos solo envia la tecla Alt.*
 ######*// Argumentos validos (Cualquier tecla).*
-######*// Presionar tecla AltGr*
-######Ejm: ```ALTGR();```, ```ALT();``` o ```ALT(F4);```
+######Ejm: ```ALTGR();```, ```ALTGR();``` o ```ALT(F4);```
 
 
 ## COMBINACIONES
@@ -67,9 +65,10 @@ Presionar tecla enter.
 - **Tab();**
 Presionar tabulador
 
-- Para enviar cualquier otra tecla usar:
-- Tecla(valorTecla);
-- Ejm: Tecla(F1); // Presiona la tecla funcion-1 (Muestra la ayuda en la mayoria de programas)
+Para enviar cualquier otra tecla usar:
+ ```Tecla(valorTecla);```
+Ejm: Tecla(F1);
+// Presiona la tecla Funcion1 (Muestra la ayuda en la mayoria de programas)
 
  * Para una mejor legibilidad usar las abreviaciones presentadas en seguida:
  * Comparacion uso de valor original o  uso de abreviacion:
