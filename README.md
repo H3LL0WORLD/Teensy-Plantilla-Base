@@ -46,12 +46,16 @@ Tambien es recomendado actualizar las KEYWORDs o palabras claves para que a la h
 ##Combinaciones
 
 - **CTRL_ALT();**
-######*// Envia la combinacion de teclas control más alternacion más un argumento.*
+######*// Envia la combinacion de teclas control más alternacion (El argumento es opcional).*
 ######Ejm: ```CTRL_ALT(SUPR);```
 
 - **CTRL_SHIFT();**
-######*// Envia la combinacion de teclas control más shift más un argumento.*
+######*// Envia la combinacion de teclas control más shift (El argumento es opcional).*
 ######Ejm: ```CTRL_SHIFT(ESC);```
+
+- **GUIL_SHIFT();**
+######*// Envia la combinacion de teclas windows o comando más shift (El argumento es opcional).*
+######Ejm: ```CTRL_SHIFT(M);```
 
 ##Teclas de navegacion
 - **Arriba();**
