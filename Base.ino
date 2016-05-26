@@ -45,7 +45,6 @@ void escribir(String texto, int repetir = 1, boolean enter = false)
       
       Keyboard.send_now();
       limpiarKeys();
-      delay(50);
     }
 }
 
@@ -61,7 +60,6 @@ void limpiarKeys()
     Keyboard.set_key1(0);
     Keyboard.set_key2(0);
     Keyboard.send_now();
-    delay(50);
 }
 
 void combinacion(int key, int mod)
@@ -304,11 +302,11 @@ void Fin()
 
 
 
-void Payload()                                            
-{   
+void Payload()
+{
     Inicio();
-
-
+	
+	
       
     Fin();
 }
