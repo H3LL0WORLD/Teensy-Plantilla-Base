@@ -53,9 +53,9 @@ Tambien es recomendado actualizar las KEYWORDs o palabras claves para que a la h
 ###### *// Envia la combinacion de teclas control más shift (El argumento es opcional).*
 ###### Ejm: ```CTRL_SHIFT(ESC);```
 
-- **GUIL_SHIFT();**
+- **GUI_SHIFT();**
 ###### *// Envia la combinacion de teclas windows o comando más shift (El argumento es opcional).*
-###### Ejm: ```CTRL_SHIFT(M);```
+###### Ejm: ```GUI_SHIFT(M);```
 
 ## Teclas de navegacion
 - **Arriba();**
@@ -65,9 +65,9 @@ Tambien es recomendado actualizar las KEYWORDs o palabras claves para que a la h
 
 ## Otras teclas
 - **Enter();**
-  // Presionar tecla enter.
+  *// Presionar tecla enter.*
 - **Tab();**
-  // Presionar tabulador
+  *// Presionar tabulador*
 
 **__Para enviar cualquier otra tecla usar:__**  ```Tecla(valorTecla);```
 ###### Ejm: ```Tecla(F1);```
@@ -82,7 +82,7 @@ Comparacion uso de valor original o  uso de abreviacion:
 
 ## Lista de teclas abreviadas
 
-**Abecedario** *(notese que la 'ñ' es 'n-')*
+**Abecedario** *(notese que la 'ñ' es 'n_')*
 
 - **A, B, C, D, E, F, G, H, I, J, K, L, M, N, N_, O, P, Q, R, S, T, U, V, W, X, Y, Z**
 
